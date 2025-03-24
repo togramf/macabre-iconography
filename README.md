@@ -13,6 +13,7 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+npm run deploy
 ```
 
 ### Lints and fixes files
@@ -20,5 +21,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

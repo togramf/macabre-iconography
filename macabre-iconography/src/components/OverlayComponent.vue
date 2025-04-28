@@ -5,8 +5,8 @@
                 <h2>{{ data.title }}</h2>
 
                 <!-- Description -->
-                <p v-if="this.$i18n.locale == this.$i18n.fallbackLocale">{{ data.descriptionEn }}</p>
-                <p v-if="this.$i18n.locale != this.$i18n.fallbackLocale">{{ data.descriptionEs }}</p>
+                <p v-if="$i18n.locale == $i18n.fallbackLocale">{{ data.descriptionEn }}</p>
+                <p v-if="$i18n.locale != $i18n.fallbackLocale">{{ data.descriptionEs }}</p>
 
                 <!-- Embedding YouTube video -->
                 <div v-if="data.vid1">

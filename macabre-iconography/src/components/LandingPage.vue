@@ -33,7 +33,6 @@
 import OverlayComponent from './OverlayComponent.vue';
 import OverlayContent from "../../src/assets/OverlayContent.json";
 
-
   export default {
   components: {
     OverlayComponent

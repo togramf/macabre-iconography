@@ -5,19 +5,20 @@
                 <h2>{{ data.title }}</h2>
 
                 <!-- Description -->
-                <p v-if="this.$i18n.locale == this.$i18n.fallbackLocale">{{ data.descriptionEn }}</p>
-                <p v-if="this.$i18n.locale != this.$i18n.fallbackLocale">{{ data.descriptionEs }}</p>
+                <p v-if="$i18n.locale == $i18n.fallbackLocale">{{ data.descriptionEn }}</p>
+                <p v-if="$i18n.locale != $i18n.fallbackLocale">{{ data.descriptionEs }}</p>
 
                 <!-- Embedding YouTube video -->
-                <div v-if="data.videoUrl">
+                <div v-if="data.vid1">
                   <iframe
-                    :src="getYouTubeEmbedUrl(data.illustrations.vid1)"
+                    :src="data.vid1" 
                     frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                     width="100%"
                     height="315"
                   ></iframe>
+
                 </div>
                   <!-- If unavailable, display the cover -->
                   <div v-else>

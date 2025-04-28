@@ -5,9 +5,8 @@
       "cover": "img-blood.jpeg",
       "descriptionEn": "Description in English",
       "descriptionEs": "El corazón es el centro del cuerpo, bombea sangre a todos sus rincones para así transportar el oxígeno y nutrientes, que las células necesitan para renovar sus tejidos. Célula a célula, rincón a rincón, el corazón nos mantiene vivos con el emanar y el movimiento de esta sangre. Resulta casi obvio el paralelismo con el agua, que emana de las fuentes, manteniendo con vida a todos los seres vivos que le rodean, brizna a brizna, célula a célula. Del agua dependemos todos los seres vivos que conocemos, y de nuestra sangre nosotros dependemos.",
-      "illustrations": {
-       "vid1": "https://youtu.be/95BS41XbkmQ?si=ttnd_fnugNZdUvhX"
-      }
+      "vid1": "https://www.youtube.com/embed/95BS41XbkmQ?si=3Gj6gBwm6y5FMAqg"
+      
     },
     {
       "id": "2",
@@ -15,8 +14,7 @@
       "cover": "img-sangre.jpeg",
       "descriptionEn": "Description in English",
       "descriptionEs": "Description in Spanish",
-      "illustrations": {
-       "vid1": "https://youtu.be/95BS41XbkmQ?si=ttnd_fnugNZdUvhX"
-      }
+      "vid1": ""
+      
     }
   ]

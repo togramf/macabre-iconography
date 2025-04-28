@@ -13,11 +13,12 @@ npm install
 npm install vue-i18n
 npm install vue-router
 npm install three
+npm install --save-dev gh-pages
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production

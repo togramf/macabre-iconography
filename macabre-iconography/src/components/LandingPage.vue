@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="content">
+      
       <h1>{{ $t('ldgwelcome') }}</h1>
       <p>{{ $t('ldgdescription') }}</p>
       <button @click="changeLanguage">{{ $t('changeLanguage') }}</button>
-
+      
       <div class="overlay-container">
           <div class="main-box">
             <div class="sub-box" v-for="overlay in overlaysContent" :key="overlay.id">
